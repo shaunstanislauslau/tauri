@@ -1,6 +1,6 @@
 # Changelog
 
-## \[1.0.0]
+## \[1.0.0-beta-rc.2]
 
 - Prevent "once" events from being able to be called multiple times.
 

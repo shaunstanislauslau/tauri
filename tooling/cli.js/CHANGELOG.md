@@ -1,6 +1,6 @@
 # Changelog
 
-## \[1.0.0]
+## \[1.0.0-beta-rc.2]
 
 - Add missing camelcase rename for config
   - Bumped due to a bump in cli.rs.

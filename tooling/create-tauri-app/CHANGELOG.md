@@ -1,5 +1,10 @@
 # Changelog
 
+## \[1.0.0]
+
+- Remove `tauri` dependency from vanilla recipe
+  - [3998046](https://www.github.com/tauri-apps/tauri/commit/399804648924139c6240351a76812a3071b51f65) fix(cta): remove `tauri` dep from vanilla recipe ([#1502](https://www.github.com/tauri-apps/tauri/pull/1502)) on 2021-04-15
+
 ## \[1.0.0-beta-rc.1]
 
 - Fix adding `tauri` script to package.json

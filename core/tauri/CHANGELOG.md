@@ -1,5 +1,19 @@
 # Changelog
 
+## \[1.0.0]
+
+- Prevent "once" events from being able to be called multiple times.
+
+- `Window::trigger(/*...*/)` is now properly `pub` instead of `pub(crate)`.
+
+- `Manager::once_global(/*...*/)` now returns an `EventHandler`.
+
+- `Window::once(/*...*/)` now returns an `EventHandler`.
+
+- (internal) `event::Listeners::trigger(/*...*/)` now handles removing "once" events.
+
+- [ece243d](https://www.github.com/tauri-apps/tauri/commit/ece243d17c9c3ef8d2ba8e3b25b872aa6ea0b6ab) don't remove once listener on new thread ([#1506](https://www.github.com/tauri-apps/tauri/pull/1506)) on 2021-04-14
+
 ## \[1.0.0-beta-rc.1]
 
 - Missing the `files` property in the package.json which mean that the `dist` directory was not published and used.

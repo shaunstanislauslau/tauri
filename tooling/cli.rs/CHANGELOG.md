@@ -1,5 +1,10 @@
 # Changelog
 
+## \[1.0.0]
+
+- Add missing camelcase rename for config
+  - [bdf7072](https://www.github.com/tauri-apps/tauri/commit/bdf707285e3d307ab083009c274ccb56d5053ff2) fix(cli.rs/info): add missing camelCase rename ([#1505](https://www.github.com/tauri-apps/tauri/pull/1505)) on 2021-04-14
+
 ## \[1.0.0-beta-rc.1]
 
 - Missing the `files` property in the package.json which mean that the `dist` directory was not published and used.
